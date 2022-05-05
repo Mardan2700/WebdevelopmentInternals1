@@ -1,0 +1,41 @@
+
+
+
+button.staffListButton {
+    display: block;
+    height: 150px;
+    width: 300px;
+    border: none;
+    background-color: #27a495;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    right: 500px;
+    top: 400px;
+    font-size: 40px;
+    color: white;
+}
+
+button.studentListButton {
+    display: block;
+    height: 150px;
+    width: 300px;
+    border: none;
+    background-color: #27a495;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    left: 500px;
+    top: 400px;
+    font-size: 40px;
+    color: white;
+}
+
+h3 {
+    font-size: 40px;
+
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="Studentlist.css">
+    <meta charset="UTF-8">
+    <title>Studentlist</title>
+</head>
+<body>
+<div id = "Tabelle">
+<h1>All Students</h1>
+<table class="content-table">
+    <thead>
+    <tr>
+        <th>Student ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>DOB</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>42</td>
+    <td>Hans</td>
+    <td>Müller</td>
+    <td>03.06.2000</td>
+    <td>Male</td>
+    <td>Fachbereich1</td>
+    <td>Hansmüller@gmail.com</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Reinhardt</td>
+        <td>Alman</td>
+        <td>11.02.1999</td>
+        <td>Male</td>
+        <td>Fachbereich2</td>
+        <td>Reinal@gmail.com</td>
+    </tr>
+    <tr>
+        <td>666</td>
+        <td>Shaytan</td>
+        <td>Tidian</td>
+        <td>6.06.1996</td>
+        <td>Other</td>
+        <td>Fachbereich4</td>
+        <td>Ilovewebdevelopment@gmail.com</td>
+    </tr>
+    </tbody>
+</table>
+</div>
+<div id = "Formular">
+<form>
+<select>
+<option value = "Fachbereich1">
+    Fachbereich1
+</option>
+    <option value = "Fachbereich2">
+        Fachbereich2
+    </option>
+    <option value = "Fachbereich3">
+        Fachbereich3
+    </option>
+    <option value = "Fachbereich4">
+        Fachbereich4
+    </option>
+    <option value = "Fachbereich5">
+        Fachbereich5
+    </option>
+</select>
+    <label>*</label>
+    <div id = "radioinput";>
+    Gender:
+    <input type="radio" id="r1"; name="gender"> Male
+    <input type="radio" id="r2"; name="gender"> Female
+    <input type="radio" id="r3"; name="gender"> Other
+    </div>
+<label>First Name*</label>
+<input type="text" id="First Name">
+<label>Last Name</label>
+<input type="text" id="Last Name">
+<label>Email*</label>
+<input type="email" id="Email">
+<label>DOB</label>
+<input type="date" id="dob">
+    <label>Student ID*</label>
+    <input type="number" id="Studentid">
+</form>
+</div>
+</body>
+
+<button type="button" id = "addButton">Add</button>
+<button type="button" id = "deleteButton">Delete</button>
+<button type="button" id = "updateButton">Update</button>
+<script src="Studentlist.js"></script>
+</html>
