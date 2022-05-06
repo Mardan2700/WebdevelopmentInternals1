@@ -6,8 +6,54 @@
     <title>Studentlist</title>
 </head>
 <body>
+<div class="topnav">
+    <a> The Imaginary University </a>
+</div>
+<div id = "Formular" class="Formular">
+    <form>
+        <select>
+            <option value = "Fachbereich1">
+                Fachbereich1
+            </option>
+            <option value = "Fachbereich2">
+                Fachbereich2
+            </option>
+            <option value = "Fachbereich3">
+                Fachbereich3
+            </option>
+            <option value = "Fachbereich4">
+                Fachbereich4
+            </option>
+            <option value = "Fachbereich5">
+                Fachbereich5
+            </option>
+        </select>
+        <label>*</label>
+        <div id = "radioinput";>
+            Gender:
+            <input type="radio" id="r1"; name="gender"> Male
+            <input type="radio" id="r2"; name="gender"> Female
+            <input type="radio" id="r3"; name="gender"> Other
+        </div>
+        <label>First Name*</label>
+        <input type="text" id="First Name">
+        <label>Last Name</label>
+        <input type="text" id="Last Name">
+        <label>Email*</label>
+        <input type="email" id="Email">
+        <label>DOB</label>
+        <input type="date" id="dob">
+        <label>Student ID*</label>
+        <input type="number" id="Studentid">
+    </form>
+</div>
 <div id = "Tabelle">
 <h1>All Students</h1>
+    <div class="tablebuttons";>
+        <button type="button" id = "addButton"; class= "addButton">Add</button>
+        <button type="button" class = "deleteButton">Delete</button>
+        <button type="button" class = "updateButton">Update</button>
+    </div>
 <table class="content-table">
     <thead>
     <tr>
@@ -43,56 +89,32 @@
         <td>666</td>
         <td>Shaytan</td>
         <td>Tidian</td>
-        <td>6.06.1996</td>
+        <td>06.06.1996</td>
         <td>Other</td>
         <td>Fachbereich4</td>
         <td>Ilovewebdevelopment@gmail.com</td>
     </tr>
+    <tr>
+        <td>27</td>
+        <td>Mardan</td>
+        <td>Ali</td>
+        <td>07.03.2000</td>
+        <td>Male</td>
+        <td>Fachbereich3</td>
+        <td>madamardan@gmx.de</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>Dilara</td>
+        <td>Anne</td>
+        <td>06.09.1997</td>
+        <td>Female</td>
+        <td>Fachbereich5</td>
+        <td>Dilara69@hotmail.de</td>
+    </tr>
     </tbody>
 </table>
 </div>
-<div id = "Formular">
-<form>
-<select>
-<option value = "Fachbereich1">
-    Fachbereich1
-</option>
-    <option value = "Fachbereich2">
-        Fachbereich2
-    </option>
-    <option value = "Fachbereich3">
-        Fachbereich3
-    </option>
-    <option value = "Fachbereich4">
-        Fachbereich4
-    </option>
-    <option value = "Fachbereich5">
-        Fachbereich5
-    </option>
-</select>
-    <label>*</label>
-    <div id = "radioinput";>
-    Gender:
-    <input type="radio" id="r1"; name="gender"> Male
-    <input type="radio" id="r2"; name="gender"> Female
-    <input type="radio" id="r3"; name="gender"> Other
-    </div>
-<label>First Name*</label>
-<input type="text" id="First Name">
-<label>Last Name</label>
-<input type="text" id="Last Name">
-<label>Email*</label>
-<input type="email" id="Email">
-<label>DOB</label>
-<input type="date" id="dob">
-    <label>Student ID*</label>
-    <input type="number" id="Studentid">
-</form>
-</div>
 </body>
-
-<button type="button" id = "addButton">Add</button>
-<button type="button" id = "deleteButton">Delete</button>
-<button type="button" id = "updateButton">Update</button>
 <script src="Studentlist.js"></script>
 </html>

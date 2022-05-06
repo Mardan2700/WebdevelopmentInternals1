@@ -1,6 +1,36 @@
 
 
 
+
+
+.topnav {
+    background-color: #489897;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #e1e4e4;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.beideButton {
+    display: flex;
+    justify-content: space-evenly;
+    width:2000px; height: auto; overflow: hidden; position: absolute;top: 50%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 button.staffListButton {
     display: block;
     height: 150px;
@@ -8,14 +38,13 @@ button.staffListButton {
     border: none;
     background-color: #27a495;
     padding: 14px 28px;
-    font-size: 16px;
     cursor: pointer;
     text-align: center;
-    position: fixed;
-    right: 500px;
+    left: 500px;
     top: 400px;
     font-size: 40px;
     color: white;
+    border-radius: 10px;
 }
 
 button.studentListButton {
@@ -25,17 +54,31 @@ button.studentListButton {
     border: none;
     background-color: #27a495;
     padding: 14px 28px;
-    font-size: 16px;
     cursor: pointer;
     text-align: center;
-    position: fixed;
     left: 500px;
     top: 400px;
     font-size: 40px;
     color: white;
+    border-radius: 10px;
 }
+
+
 
 h3 {
     font-size: 40px;
+    position: fixed;
+    left: 420px;
+    top: 150px;
+}
 
+p1 {
+    position: fixed;
+    left: 420px;
+    top: 250px;
+    font-size: 20px;
+}
+
+button:hover{
+    opacity: 0.8;
 }

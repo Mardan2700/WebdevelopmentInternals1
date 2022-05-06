@@ -10,21 +10,26 @@ input[type=text], input[type=password] {
 }
 .Staff {
     width: 300px;
-    border: 2px solid #489897;
+    border: 2px solid #18413a;
     padding: 50px;
     margin: 20px;
+    border-radius: 10px;
+    background-color: #489897;
 }
 
 .Admin {
     width: 300px;
-    border: 2px solid #489897;
+    border: 2px solid #18413a;
     padding: 50px;
     margin: 20px;
+    border-radius: 10px;
+    background-color: #489897;
 }
 
 .topnav {
     background-color: #489897;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .topnav a {
@@ -33,10 +38,12 @@ input[type=text], input[type=password] {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 
-
+body {
+    background-color: #e1e4e4;
+}
 
 
 .Beide{
@@ -51,17 +58,28 @@ input[type=text], input[type=password] {
     flex: 1;
 }
 
-/* Set a style for all buttons */
+
 button {
-    background-color: #489897;
-    color: white;
+    background-color: #ffffff;
+    color:#18413a;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 22px #18413a;
     cursor: pointer;
     width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
+h3 {
+    font-size: 30px;
+    color: white;
+}
+
+label {
+    color: white;
+}
 
 
 button:hover{
