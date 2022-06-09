@@ -58,7 +58,7 @@
 h1 {
     font-size: 40px;
     position: fixed;
-    left: 550px;
+    left: 700px;
     top: 50px;
 }
 
@@ -107,4 +107,14 @@ button:hover{
     opacity: 0.8;
 }
 
+.sortDepartment {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 140px;
+}
 
+.Semester {
+    font-size: 25px;
+    margin-left: 478px;
+    margin-top: 140px;
+}
